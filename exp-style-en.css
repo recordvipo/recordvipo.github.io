@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Lexend Deca', sans-serif;
+
+
+}
+	
+a:link {
+	color:#000000;
+	background-color:transparent;
+	text-decoration:none;
+}
+a:visited {
+	color:#000000;
+	background-color:transparent;
+	text-decoration:none;
+}
+a:hover {
+	color:#000000;
+	background-color:transparent;
+	text-decoration:underline;
+}
+a:active {
+	color:#000000;
+	background-color:transparent;
+	text-decoration:underline;
+}
+.nav {
+	background-color: #ffffff;
+	height: 75px;
+
+}
+	.nav img{
+	float: left;
+	padding-left: 15%;
+	padding-top: 5px;
+	background-size: 0px;
+	}
+	.nav ul li{
+	color: black;
+	display: inline;
+	font-size: 16px;
+	padding: 0 25px;	
+	}
+
+	.nav ul{
+	float: right;
+	padding-top: 30px;
+	padding-right: 15%;
+	}
+.canle{
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 0px;
+}
+.myskill{
+	font-size: 65px;
+	color: #F26222;
+	text-align: center;
+}
+.section4{
+	height: 810px;
+	background-image: url("bg-experience.jpg");
+	background-size: cover;
+}
+.sec3-text{
+	color: white;
+}
+.section4 h4{
+	font-size: 65px;
+	color: #F26222;
+	
+}
+.sec4-header{
+	padding-top: 20px;
+	display: block;
+	margin: auto;
+}
+.job-profile{
+	display: flex;
+	margin: 0 auto auto auto;
+	
+}
+
+.box4{
+	width: 150px;
+	height: 200px;
+	border-radius: 15px;
+	padding: 5px;
+	scroll-snap-align: start;
+}
+.box4-1{
+	background-color: #f26222;
+	background-image: url("sec4-box1.jpg");
+	background-size: cover;	
+	width: 150px;
+	height: 200px;
+}
+
+.box4-2{
+	background-color: #f26222;
+	background-image: url("sec4-box2.jpg");
+	background-size: cover;	
+	width: 150px;
+	height: 200px;
+}
+.box4-3{
+	background-color: #f26222;
+	background-image: url("sec4-box3.jpg");
+	background-size: cover;	
+	width: 150px;
+	height: 200px;
+}
+.box4-4{
+	background-color: #f26222;
+	background-image: url("sec4-box4.jpg");
+	background-size: cover;	
+	width: 150px;
+	height: 200px;
+}
+.box4-5{
+	background-color: #f26222;
+	background-image: url("sec4-box5.jpg");
+	background-size: cover;	
+	width: 150px;
+	height: 200px;
+}
+.box4-6{
+	background-color: #f26222;
+	background-image: url("sec4-box6.jpg");
+	background-size: cover;	
+	width: 150px;
+	height: 200px;
+}
+.sec4-header p{
+	padding-top: 10px;
+	font-size: 20px;
+}
+
+.Creatory, .Optimus, .VPT, .SGD, .FL{
+	padding: 0 30px 0 0;
+}
+.sec4-text{
+	font-size: 17px;
+	color:#ffffff;
+	padding-top: 105px;
+}
+.text1{
+	color: #ffffff;
+	font-size: 13px;
+}
+.Creatory:hover{
+	transform: scale(1.05);
+	transition: all .2s ease;
+	
+}
+.SGD:hover{
+	transform: scale(1.05);
+	transition: all .2s ease;
+}
+.Optimus:hover{
+	transform: scale(1.05);
+	transition: all .2s ease;
+}
+.FL:hover{
+	transform: scale(1.05);
+	transition: all .2s ease;
+}
+.VPT:hover{
+	transform: scale(1.05);
+	transition: all .2s ease;
+}
+.IU:hover{
+	transform: scale(1.05);
+	transition: all .2s ease;
+}
+.section5{
+	background-image: url("bg-section5.jpg");
+	background-position: center;
+	height: 200px;
+}
+.footer{
+	height: 30px;	
+	color:#FFFFFF;
+	padding-top: 20px;
+	background-color:#030303;
+	text-align: center;
+	font-size: 15px;
+}
