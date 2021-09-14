@@ -409,6 +409,10 @@ a:active {
 	transition: all .3s ease;
 
 }
+.proj{
+	overflow: hidden;
+	border-radius: 15px;
+}
 .sec6-text{
 	text-align: center;
 }

@@ -404,6 +404,10 @@ a:active {
 	grid-column: 5/7;
 	grid-row: 7/9;
 }
+.proj{
+	overflow: hidden;
+	border-radius: 15px;
+}
 .proj:hover{
 	transform: scale(1.02);
 	transition: all .3s ease;
